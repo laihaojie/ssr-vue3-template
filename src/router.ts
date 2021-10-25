@@ -11,10 +11,6 @@ const routes: Array<RouteRecordRaw> = [
         alias: "/index",
         component: () => import("./views/index.vue"),
     },
-    {
-        path: "/test",
-        component: () => import("./views/test.vue"),
-    },
     // {
     //     path: "/",
     //     component: () => import("./views/index.vue"),
