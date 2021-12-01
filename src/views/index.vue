@@ -29,6 +29,8 @@ export default defineComponent({
     const count = ref(20)
     const { weather } = useStore<State>(key).state;
 
+
+
     return {
       count,
       weather: weather || {},
